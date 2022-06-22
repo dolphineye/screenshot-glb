@@ -69,7 +69,7 @@ function copyModelViewer(){
   try {
     await captureScreenshot(options);
   } catch (err) {
-    console.log(`❌ ERROR: ${err}`);
+    console.log('❌ ERROR:', err);
     processStatus = 1;
   }
 

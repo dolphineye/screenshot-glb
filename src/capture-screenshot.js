@@ -61,6 +61,7 @@ const captureScreenshot = async function (options) {
       deviceScaleFactor: devicePixelRatio,
     },
     headless: !debug,
+    dumpio: true,
   });
 
   const page = await browser.newPage();
